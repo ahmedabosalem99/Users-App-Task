@@ -1,4 +1,4 @@
-# Users Management Application
+# Simple Users Management App
 
 ![Angular](https://img.shields.io/badge/Angular-v19.2.6-red)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-v5-purple)
@@ -102,7 +102,7 @@ ng test
 
 # End-to-end tests
 ng e2e
-``
+```
 
 ## 🙏 Acknowledgments
 
