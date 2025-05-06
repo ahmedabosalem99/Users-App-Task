@@ -1,0 +1,16 @@
+@if(userDetails)
+{
+  <div class="alert alert-dark w-75 mx-auto">
+    <p class="alert alert-danger">Name: {{userDetails.name}}</p>
+    <p class="alert alert-info">Age: {{userDetails.age}}</p>
+    <p class="alert alert-info">Email: {{userDetails.email}}</p>
+    <p class="alert alert-info">Phone: {{userDetails.phone}}</p>
+  </div>
+}
+@else
+{
+  <div class="spinner-border text-primary" role="status">
+  </div>
+}
+
+
